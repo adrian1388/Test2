@@ -25,6 +25,6 @@ public class TestController {
     	
 System.out.println(" string: " + text);
 
-        return new OperationSuccess("success");
+        return new OperationSuccess(text);
     }
 }
